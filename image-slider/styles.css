@@ -1,0 +1,33 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 30px;
+  height: 100vh;
+  width: 100%;
+}
+
+.container {
+  margin: 100px 0;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  gap: 10px;
+}
+
+.container img {
+  width: 10%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid dodgerblue;
+  transition: all ease-in-out 2s;
+}
+
+.container img:hover {
+  width: 30%;
+}
